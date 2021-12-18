@@ -13,7 +13,8 @@ Let's say you host it on repl.it, with the node-fetch module you can simply fetc
 
         let query = "All I Want For Christmas Is You - Mariah Carey";
         let lyrics = "";
-
+        
+        // Replace this link with your own
         fetch(`https://lyricsfinder-express.nevylish.repl.co/lyricsfinder/${query}`, {
             method: "GET",
             headers: {
