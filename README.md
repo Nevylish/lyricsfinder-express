@@ -35,5 +35,9 @@ Let's say you host it on repl.it, with the node-fetch module you can simply fetc
             });
 ```
 
-## Run the project
-[![Run on Repl.it](https://repl.it/badge/github/Nevylish/lyricsfinder-express)](https://repl.it/github/Nevylish/lyricsfinder-express)
+## Run the project on Repl.it
+Click here to run the project ➜ [![Run on Repl.it](https://repl.it/badge/github/Nevylish/lyricsfinder-express)](https://repl.it/github/Nevylish/lyricsfinder-express)
+
+**How to add variable environment:**<br>
+![image](https://user-images.githubusercontent.com/36775882/146649227-eadbf585-acab-473f-8e73-891db072b15a.png)
+
