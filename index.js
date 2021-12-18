@@ -12,7 +12,7 @@ const isAuthorized = (req, res, next) => {
     }
 }
 
-app.get('/lyricsfinder/:request', isAuthorized, async (req, res) => {
+app.get('/:request', isAuthorized, async (req, res) => {
   const lyricsToFind = req.params.request;
   let lyrics = await lyricsFinder(lyricsToFind);
   res.status(200).json({lyrics: lyrics});
