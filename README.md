@@ -15,7 +15,7 @@ Let's say you host it on repl.it, with the node-fetch module you can simply fetc
         let lyrics = "";
         
         // Replace this link with your own
-        fetch(`https://lyricsfinder-express.nevylish.repl.co/lyricsfinder/${query}`, {
+        fetch(`https://lyricsfinder.api.nevylish.fr/${query}`, {
             method: "GET",
             headers: {
                 "Authorization": `${process.env.AUTHPASS}`
