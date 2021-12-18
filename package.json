@@ -4,7 +4,8 @@
   "description": "Use lyrics-finder module with another ip address if your host's is blocked.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
   },
   "author": "Nevylish",
   "license": "ISC",
