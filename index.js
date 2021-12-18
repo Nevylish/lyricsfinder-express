@@ -2,7 +2,7 @@ const express = require('express'),
   app = express(),
   lyricsFinder = require('lyrics-finder');
 
-const isAuthorized = (req,res, next) => {
+const isAuthorized = (req, res, next) => {
   const auth = req.headers.authorization;
     if (auth === process.env.AUTHPASS) {
       next();
