@@ -1,12 +1,12 @@
 {
   "name": "lyricsfinder-express",
   "version": "1.0.0",
-  "description": "",
+  "description": "Use lyrics-finder module with another ip address if your host's is blocked.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Nevylish",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.2",
