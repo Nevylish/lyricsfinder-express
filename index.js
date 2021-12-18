@@ -9,10 +9,8 @@ const isAuthorized = (req,res, next) => {
     } else {
       res.status(401);
       res.send("You do not have permission to access this page.");
-    };
-};
-
-app.use(express.json());
+    }
+}
 
 app.get('/lyricsfinder/:request', isAuthorized, async (req, res) => {
   const lyricsToFind = req.params.request;
