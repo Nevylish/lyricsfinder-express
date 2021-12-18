@@ -8,6 +8,7 @@ Let's say you host it on repl.it, with the node-fetch module you can simply fetc
 <br>*By default you must put a variable environment with a password to access the link, you can simply remove it (but I do not recommend it)*
 
 ```js
+        // Javascript example
         const fetch = require('node-fetch');
 
         let query = "All I Want For Christmas Is You - Mariah Carey";
