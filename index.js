@@ -8,7 +8,7 @@ const isAuthorized = (req,res, next) => {
       next();
     } else {
       res.status(401);
-      res.send("Tu n'as pas la permission d'accéder à cette page.");
+      res.send("You do not have permission to access this page.");
     }
 }
 
@@ -20,6 +20,4 @@ app.get('/lyricsfinder/:request', isAuthorized, async (req, res) => {
   res.status(200).json({lyrics: lyrics})
 });
 
-app.listen(3000, () => {
-  console.log(`Example app listening at http://localhost:3000`)
-});
+app.listen(3000);
