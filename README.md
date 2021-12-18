@@ -20,10 +20,10 @@ Let's say you host it on repl.it, with the node-fetch module you can simply fetc
             headers: {
                 "Authorization": `${process.env.AUTHPASS}`
             }
-            }).then((response) => {
+            }).then(response => {
                 return response.json()
             })
-            .then(async (data) => {
+            .then(data => {
                 if (!data.lyrics) {
                     throw new Error('Lyrics not found.');
                 }
@@ -33,7 +33,7 @@ Let's say you host it on repl.it, with the node-fetch module you can simply fetc
                 console.log(lyrics)
 
             })
-            .catch((err) => {
+            .catch(err => {
                 throw new Error(err);
             });
 ```
