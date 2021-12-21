@@ -30,7 +30,7 @@ Let's say you host it on repl.it, with the node-fetch module you can simply fetc
                 
                 // Lyrics find !
                 lyrics = data.lyrics;
-                console.log(lyrics);
+                console.log(data);
 
             })
             .catch(err => {
