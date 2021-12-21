@@ -21,7 +21,7 @@ Let's say you host it on repl.it, with the node-fetch module you can simply fetc
                 "Authorization": `${process.env.AUTHPASS}`
             }
             }).then(response => {
-                return response.json()
+                return response.json();
             })
             .then(data => {
                 if (!data.lyrics) {
@@ -30,7 +30,7 @@ Let's say you host it on repl.it, with the node-fetch module you can simply fetc
                 
                 // Lyrics find !
                 lyrics = data.lyrics;
-                console.log(lyrics)
+                console.log(lyrics);
 
             })
             .catch(err => {
