@@ -1,5 +1,5 @@
 # Lyricsfinder with Expressjs
-🎵 Use lyrics-finder module with another ip address if your host's is blocked.
+🎵 Use [lyrics-finder](https://github.com/alias-rahil/lyrics-searcher) module with another ip address if your host's is blocked.
 
 ## How to use it?
 This project allows to return the lyrics of a music in json with expressjs. It can be useful if you need to retrieve the lyrics of a music but your ip address is blocked.
