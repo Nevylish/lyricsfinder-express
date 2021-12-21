@@ -4,7 +4,7 @@
 ## How to use it?
 This project allows to return the lyrics of a music in json with expressjs. It can be useful if you need to retrieve the lyrics of a music but your ip address is blocked.
 
-Let's say you host it on repl.it, with the node-fetch module you can simply fetch the content.
+Let's say you host it on repl.it (their ip are not yet blocked), with the node-fetch module you can simply fetch the content.
 <br>*By default you must put a variable environment with a password to access the link, you can simply remove it by not putting any (but I do not recommend it)*
 
 ```js
