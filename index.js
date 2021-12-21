@@ -12,10 +12,18 @@ const isAuthorized = (req, res, next) => {
     }
 }
 
+app.get('/', isAuthorized, async (req, res) => {
+  res.status(404).json({error: "You must put a music like this: https://lyricsfinder.api.nevylish.fr/All I Want For Christmas Is You - Mariah Carey"});
+});
+
 app.get('/:request', isAuthorized, async (req, res) => {
   const lyricsToFind = req.params.request;
   let lyrics = await lyricsFinder(lyricsToFind);
-  res.status(200).json({lyrics: lyrics});
+
+  if (lyrics) 
+    res.status(200).json({lyrics: lyrics});
+  else
+    res.status(404).json({error: "Lyrics not found."})
 });
 
 app.listen(3000);
