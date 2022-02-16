@@ -11,8 +11,8 @@ Let's say you host it on repl.it (their ip are not yet blocked), with the node-f
         // Javascript example
         const fetch = require('node-fetch');
 
-        let query = "All I Want For Christmas Is You - Mariah Carey";
-        let lyrics = "";
+        let query = "All I Want For Christmas Is You - Mariah Carey",
+            lyrics = "";
         
         // Replace this link with your own
         fetch(`https://lyricsfinder.api.nevylish.fr/${query}`, {
